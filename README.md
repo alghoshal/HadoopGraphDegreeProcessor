@@ -10,7 +10,7 @@ which indicates that for the Main Node 1, Nodes 2 & 3 are 1-degree separated, wh
 The above e.g. yields the following new (derived) degree of separation between nodes:
 	* 2:3\~2|4~3
 	* 3:2\~2|4~3
-	* 4:2,3~2 
+	* 4:2,3~2|
 
 - This is done over several M/R jobs. Each gets executed in sequence over the data file output of the previous run to work out the subsequent next higher degree (2nd, 3rd, etc) neigbours of each node.
 
