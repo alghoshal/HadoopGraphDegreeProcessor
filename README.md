@@ -9,9 +9,10 @@ For e.g. The following record indicates that for the Main Node 1, Nodes 2 & 3 ar
 	* 2:3\~2
 	* 3:2\~2
 	
-- This output forms the input to the next round of the chain of M/R jobs. The data file output of the previous run is used to work out the subsequent next higher degree (2nd, 3rd, etc) neigbours of each node.
+- This output forms the input to the next round of the chain of M/R jobs. The data file output of the previous run is used to work out the subsequent next higher degree (2nd, 3rd, etc) neigbours of each node. Output of each run yields a text file similar to the input file but having the list of next higher degree nodes.
 
-- Final output of each run yields a text file similar to the input file but having the list of next higher degree nodes.
+- Final output after all rounds of all M/R jobs complete is a text file where each row consists of the main node along with all its neigbours:
+	*	1:2,3\~1|4~2|7,8~3|....
 
 ## Requirements
 Hadoop 1.0.x, Java-5+, junit-3.x, mockito-1.8+, commons-configuration, commons-lang, commons-logging
