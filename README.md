@@ -1,5 +1,5 @@
 # HadoopGraphDegreeProcessor
-A Hadoop 1.0.x legacy code that operates on a Graph. Using the data of the degrees of separation between a set of existing nodes, the code works out degrees of separation between all pairs of nodes. Though from a different era, code's ported her or posterity! 
+A Hadoop 1.0.x legacy code that operates on a Graph. Using the data of the degrees of separation between a set of existing nodes, the code works out degrees of separation between all pairs of nodes. Though from a different era, code's ported here for posterity! 
 
 - Initially, a file containing all 1-deg separated neibours of a node. Each line consists of Node (Main Node) & its 1-deg separated neigbours list. 
 For e.g. The following record indicates that for the Main Node 1, Nodes 2 & 3 are 1-degree separated: 
